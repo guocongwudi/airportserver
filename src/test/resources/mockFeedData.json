@@ -1,0 +1,804 @@
+{
+  "airports": [
+    {
+      "code": "AAA",
+      "display_name": "Anaa",
+      "international_airport": false,
+      "regional_airport": false,
+      "location": {
+        "latitude": -17.416666,
+        "longitude": -145.5
+      },
+      "currency_code": "XPF",
+      "timezone": "Pacific/Tahiti",
+      "country": {
+        "code": "PF",
+        "display_name": "French Polynesia"
+      }
+    },
+    {
+      "code": "AAB",
+      "display_name": "Arrabury",
+      "international_airport": false,
+      "regional_airport": false,
+      "location": {
+        "latitude": -26.75,
+        "longitude": 141
+      },
+      "currency_code": "AUD",
+      "timezone": "Australia/Brisbane",
+      "country": {
+        "code": "AU",
+        "display_name": "Australia"
+      }
+    },
+    {
+      "code": "AAC",
+      "display_name": "Al Arish",
+      "international_airport": false,
+      "regional_airport": false,
+      "location": {
+        "latitude": 31.166666,
+        "longitude": 33.833332
+      },
+      "currency_code": "EGP",
+      "timezone": "Africa/Cairo",
+      "country": {
+        "code": "EG",
+        "display_name": "Egypt"
+      }
+    },
+    {
+      "code": "AAE",
+      "display_name": "Annaba",
+      "international_airport": false,
+      "regional_airport": false,
+      "location": {
+        "latitude": 36.816666,
+        "longitude": 7.8
+      },
+      "currency_code": "DZD",
+      "timezone": "Africa/Algiers",
+      "country": {
+        "code": "DZ",
+        "display_name": "Algeria"
+      }
+    },
+    {
+      "code": "AAH",
+      "display_name": "Aachen",
+      "international_airport": false,
+      "regional_airport": false,
+      "location": {
+        "latitude": 50.766666,
+        "longitude": 6.1
+      },
+      "currency_code": "EUR",
+      "timezone": "Europe/Berlin",
+      "country": {
+        "code": "DE",
+        "display_name": "Germany"
+      }
+    },
+    {
+      "code": "AAI",
+      "display_name": "Arraias",
+      "international_airport": false,
+      "regional_airport": false,
+      "location": {
+        "latitude": -12.916667,
+        "longitude": -46.916668
+      },
+      "currency_code": "USD",
+      "timezone": "America/Sao_Paulo",
+      "country": {
+        "code": "BR",
+        "display_name": "Brazil"
+      }
+    },
+    {
+      "code": "AAK",
+      "display_name": "Aranuka",
+      "international_airport": false,
+      "regional_airport": false,
+      "location": {
+        "latitude": 0.16666667,
+        "longitude": 173.58333
+      },
+      "currency_code": "AUD",
+      "timezone": "Pacific/Auckland",
+      "country": {
+        "code": "KI",
+        "display_name": "Kiribati"
+      }
+    },
+    {
+      "code": "AAL",
+      "display_name": "Aalborg",
+      "international_airport": false,
+      "regional_airport": false,
+      "location": {
+        "latitude": 57.083332,
+        "longitude": 9.85
+      },
+      "currency_code": "DKK",
+      "timezone": "Europe/Copenhagen",
+      "country": {
+        "code": "DK",
+        "display_name": "Denmark"
+      }
+    },
+    {
+      "code": "AAM",
+      "display_name": "Mala Mala",
+      "international_airport": false,
+      "regional_airport": false,
+      "location": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "currency_code": "ZAR",
+      "timezone": "Africa/Johannesburg",
+      "country": {
+        "code": "ZA",
+        "display_name": "South Africa"
+      }
+    },
+    {
+      "code": "AAN",
+      "display_name": "Al Ain",
+      "international_airport": false,
+      "regional_airport": false,
+      "location": {
+        "latitude": 24.233334,
+        "longitude": 55.766666
+      },
+      "currency_code": "AED",
+      "timezone": "Asia/Dubai",
+      "country": {
+        "code": "AE",
+        "display_name": "United Arab Emirates"
+      }
+    },
+    {
+      "code": "AAO",
+      "display_name": "Anaco",
+      "international_airport": false,
+      "regional_airport": false,
+      "location": {
+        "latitude": 9.5,
+        "longitude": -64.46667
+      },
+      "currency_code": "VEB",
+      "timezone": "America/Caracas",
+      "country": {
+        "code": "VE",
+        "display_name": "Venezuela"
+      }
+    },
+    {
+      "code": "AAQ",
+      "display_name": "Anapa",
+      "international_airport": false,
+      "regional_airport": false,
+      "location": {
+        "latitude": 44.9,
+        "longitude": 37.333332
+      },
+      "currency_code": "RUB",
+      "timezone": "Europe/Moscow",
+      "country": {
+        "code": "RU",
+        "display_name": "Russian Fed"
+      }
+    },
+    {
+      "code": "AAR",
+      "display_name": "Aarhus",
+      "international_airport": false,
+      "regional_airport": false,
+      "location": {
+        "latitude": 56.3,
+        "longitude": 10.25
+      },
+      "currency_code": "DKK",
+      "timezone": "Europe/Copenhagen",
+      "country": {
+        "code": "DK",
+        "display_name": "Denmark"
+      }
+    },
+    {
+      "code": "AAS",
+      "display_name": "Apalapsili",
+      "international_airport": false,
+      "regional_airport": false,
+      "location": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "currency_code": "IDR",
+      "timezone": "Asia/Jayapura",
+      "country": {
+        "code": "ID",
+        "display_name": "Indonesia"
+      }
+    },
+    {
+      "code": "AAT",
+      "display_name": "Altay",
+      "international_airport": false,
+      "regional_airport": false,
+      "location": {
+        "latitude": 47.8,
+        "longitude": 88.11667
+      },
+      "currency_code": "CNY",
+      "timezone": "Asia/Shanghai",
+      "country": {
+        "code": "CN",
+        "display_name": "China"
+      }
+    },
+    {
+      "code": "AAU",
+      "display_name": "Asau",
+      "international_airport": false,
+      "regional_airport": false,
+      "location": {
+        "latitude": -13.433333,
+        "longitude": -172.58333
+      },
+      "currency_code": "WST",
+      "timezone": "Pacific/Midway",
+      "country": {
+        "code": "WS",
+        "display_name": "Samoa"
+      }
+    },
+    {
+      "code": "AAV",
+      "display_name": "Alah",
+      "international_airport": false,
+      "regional_airport": false,
+      "location": {
+        "latitude": 6.8333335,
+        "longitude": 124.666664
+      },
+      "currency_code": "USD",
+      "timezone": "Asia/Manila",
+      "country": {
+        "code": "PH",
+        "display_name": "Philippines"
+      }
+    },
+    {
+      "code": "AAX",
+      "display_name": "Araxa",
+      "international_airport": false,
+      "regional_airport": false,
+      "location": {
+        "latitude": -19.616667,
+        "longitude": -46.833332
+      },
+      "currency_code": "USD",
+      "timezone": "America/Sao_Paulo",
+      "country": {
+        "code": "BR",
+        "display_name": "Brazil"
+      }
+    },
+    {
+      "code": "AAY",
+      "display_name": "Al Ghaydah",
+      "international_airport": false,
+      "regional_airport": false,
+      "location": {
+        "latitude": 16.2,
+        "longitude": 52.266666
+      },
+      "currency_code": "YER",
+      "timezone": "Asia/Aden",
+      "country": {
+        "code": "YE",
+        "display_name": "Yemen Republic Of"
+      }
+    },
+    {
+      "code": "ABA",
+      "display_name": "Abakan",
+      "international_airport": false,
+      "regional_airport": false,
+      "location": {
+        "latitude": 53.716667,
+        "longitude": 91.416664
+      },
+      "currency_code": "RUB",
+      "timezone": "Asia/Krasnoyarsk",
+      "country": {
+        "code": "XU",
+        "display_name": "Russia East of Urals"
+      }
+    },
+    {
+      "code": "ABC",
+      "display_name": "Albacete",
+      "international_airport": false,
+      "regional_airport": false,
+      "location": {
+        "latitude": 38.966667,
+        "longitude": -1.85
+      },
+      "currency_code": "EUR",
+      "timezone": "Europe/Madrid",
+      "country": {
+        "code": "ES",
+        "display_name": "Spain"
+      }
+    },
+    {
+      "code": "ABD",
+      "display_name": "Abadan",
+      "international_airport": false,
+      "regional_airport": false,
+      "location": {
+        "latitude": 30.366667,
+        "longitude": 48.233334
+      },
+      "currency_code": "IRR",
+      "timezone": "Asia/Tehran",
+      "country": {
+        "code": "IR",
+        "display_name": "Iran"
+      }
+    },
+    {
+      "code": "ABE",
+      "display_name": "Allentown",
+      "international_airport": false,
+      "regional_airport": false,
+      "location": {
+        "latitude": 40.65,
+        "longitude": -75.433334
+      },
+      "currency_code": "USD",
+      "timezone": "America/New_York",
+      "country": {
+        "code": "US",
+        "display_name": "United States"
+      }
+    },
+    {
+      "code": "ABF",
+      "display_name": "Abaiang",
+      "international_airport": false,
+      "regional_airport": false,
+      "location": {
+        "latitude": 1.7166667,
+        "longitude": 173
+      },
+      "currency_code": "AUD",
+      "timezone": "Pacific/Auckland",
+      "country": {
+        "code": "KI",
+        "display_name": "Kiribati"
+      }
+    },
+    {
+      "code": "ABG",
+      "display_name": "Abingdon",
+      "international_airport": false,
+      "regional_airport": false,
+      "location": {
+        "latitude": -17.583334,
+        "longitude": 143.16667
+      },
+      "currency_code": "AUD",
+      "timezone": "Australia/Brisbane",
+      "country": {
+        "code": "AU",
+        "display_name": "Australia"
+      }
+    },
+    {
+      "code": "ABH",
+      "display_name": "Alpha",
+      "international_airport": false,
+      "regional_airport": false,
+      "location": {
+        "latitude": -23.616667,
+        "longitude": 146.61667
+      },
+      "currency_code": "AUD",
+      "timezone": "Australia/Brisbane",
+      "country": {
+        "code": "AU",
+        "display_name": "Australia"
+      }
+    },
+    {
+      "code": "ABI",
+      "display_name": "Abilene",
+      "international_airport": false,
+      "regional_airport": false,
+      "location": {
+        "latitude": 32.4,
+        "longitude": -99.666664
+      },
+      "currency_code": "USD",
+      "timezone": "America/Chicago",
+      "country": {
+        "code": "US",
+        "display_name": "United States"
+      }
+    },
+    {
+      "code": "ABJ",
+      "display_name": "Abidjan",
+      "international_airport": false,
+      "regional_airport": false,
+      "location": {
+        "latitude": 5.25,
+        "longitude": -3.9166667
+      },
+      "currency_code": "XAF",
+      "timezone": "Etc/GMT",
+      "country": {
+        "code": "CI",
+        "display_name": "Ivory Coast"
+      }
+    },
+    {
+      "code": "ABK",
+      "display_name": "Kabri Dar",
+      "international_airport": false,
+      "regional_airport": false,
+      "location": {
+        "latitude": 6.75,
+        "longitude": 44.283333
+      },
+      "currency_code": "ETB",
+      "timezone": "Africa/Nairobi",
+      "country": {
+        "code": "ET",
+        "display_name": "Ethiopia"
+      }
+    },
+    {
+      "code": "ABL",
+      "display_name": "Ambler",
+      "international_airport": false,
+      "regional_airport": false,
+      "location": {
+        "latitude": 67.166664,
+        "longitude": -157
+      },
+      "currency_code": "USD",
+      "timezone": "America/Anchorage",
+      "country": {
+        "code": "US",
+        "display_name": "United States"
+      }
+    },
+    {
+      "code": "ABM",
+      "display_name": "Bamaga",
+      "international_airport": false,
+      "regional_airport": false,
+      "location": {
+        "latitude": -10.833333,
+        "longitude": 142.41667
+      },
+      "currency_code": "AUD",
+      "timezone": "Australia/Brisbane",
+      "country": {
+        "code": "AU",
+        "display_name": "Australia"
+      }
+    },
+    {
+      "code": "ABN",
+      "display_name": "Albina",
+      "international_airport": false,
+      "regional_airport": false,
+      "location": {
+        "latitude": 5.483333,
+        "longitude": -54.133335
+      },
+      "currency_code": "SRG",
+      "timezone": "America/Sao_Paulo",
+      "country": {
+        "code": "SR",
+        "display_name": "Surinam"
+      }
+    },
+    {
+      "code": "ABP",
+      "display_name": "Atkamba",
+      "international_airport": false,
+      "regional_airport": false,
+      "location": {
+        "latitude": -6.0666666,
+        "longitude": 141.1
+      },
+      "currency_code": "PGK",
+      "timezone": "Pacific/Saipan",
+      "country": {
+        "code": "PG",
+        "display_name": "Papua New Guinea"
+      }
+    },
+    {
+      "code": "ABQ",
+      "display_name": "Albuquerque",
+      "international_airport": false,
+      "regional_airport": false,
+      "location": {
+        "latitude": 35.033333,
+        "longitude": -106.6
+      },
+      "currency_code": "USD",
+      "timezone": "America/Denver",
+      "country": {
+        "code": "US",
+        "display_name": "United States"
+      }
+    },
+    {
+      "code": "ABR",
+      "display_name": "Aberdeen",
+      "international_airport": false,
+      "regional_airport": false,
+      "location": {
+        "latitude": 45.45,
+        "longitude": -98.416664
+      },
+      "currency_code": "USD",
+      "timezone": "America/Chicago",
+      "country": {
+        "code": "US",
+        "display_name": "United States"
+      }
+    },
+    {
+      "code": "ABS",
+      "display_name": "Abu Simbel",
+      "international_airport": false,
+      "regional_airport": false,
+      "location": {
+        "latitude": 22.366667,
+        "longitude": 31.6
+      },
+      "currency_code": "EGP",
+      "timezone": "Africa/Cairo",
+      "country": {
+        "code": "EG",
+        "display_name": "Egypt"
+      }
+    },
+    {
+      "code": "ABT",
+      "display_name": "Al Baha",
+      "international_airport": false,
+      "regional_airport": false,
+      "location": {
+        "latitude": 38.95,
+        "longitude": -1.8666667
+      },
+      "currency_code": "SAR",
+      "timezone": "Asia/Riyadh",
+      "country": {
+        "code": "SA",
+        "display_name": "Saudi Arabia"
+      }
+    },
+    {
+      "code": "ABU",
+      "display_name": "Atambua Haliwen",
+      "international_airport": false,
+      "regional_airport": false,
+      "location": {
+        "latitude": -9.1,
+        "longitude": 124.916664
+      },
+      "currency_code": "IDR",
+      "timezone": "Asia/Makassar",
+      "country": {
+        "code": "ID",
+        "display_name": "Indonesia"
+      }
+    },
+    {
+      "code": "ABV",
+      "display_name": "Abuja",
+      "international_airport": false,
+      "regional_airport": false,
+      "location": {
+        "latitude": 9.166667,
+        "longitude": 7.1
+      },
+      "currency_code": "NGN",
+      "timezone": "Africa/Algiers",
+      "country": {
+        "code": "NG",
+        "display_name": "Nigeria"
+      }
+    },
+    {
+      "code": "ABX",
+      "display_name": "Albury",
+      "international_airport": false,
+      "regional_airport": true,
+      "location": {
+        "latitude": -36.066666,
+        "longitude": 146.95
+      },
+      "currency_code": "AUD",
+      "timezone": "Australia/Sydney",
+      "country": {
+        "code": "AU",
+        "display_name": "Australia"
+      }
+    },
+    {
+      "code": "ABY",
+      "display_name": "Albany",
+      "international_airport": false,
+      "regional_airport": false,
+      "location": {
+        "latitude": 31.533333,
+        "longitude": -84.183334
+      },
+      "currency_code": "USD",
+      "timezone": "America/New_York",
+      "country": {
+        "code": "US",
+        "display_name": "United States"
+      }
+    },
+    {
+      "code": "ABZ",
+      "display_name": "Aberdeen",
+      "international_airport": false,
+      "regional_airport": false,
+      "location": {
+        "latitude": 57.2,
+        "longitude": -2.1833334
+      },
+      "currency_code": "GBP",
+      "timezone": "Europe/London",
+      "country": {
+        "code": "GB",
+        "display_name": "United Kingdom"
+      }
+    },
+    {
+      "code": "ACA",
+      "display_name": "Acapulco",
+      "international_airport": false,
+      "regional_airport": false,
+      "location": {
+        "latitude": 16.75,
+        "longitude": -99.75
+      },
+      "currency_code": "USD",
+      "timezone": "America/Mexico_City",
+      "country": {
+        "code": "MX",
+        "display_name": "Mexico"
+      }
+    },
+    {
+      "code": "ACC",
+      "display_name": "Accra",
+      "international_airport": false,
+      "regional_airport": false,
+      "location": {
+        "latitude": 5.5833335,
+        "longitude": -0.16666667
+      },
+      "currency_code": "GHC",
+      "timezone": "Etc/GMT",
+      "country": {
+        "code": "GH",
+        "display_name": "Ghana"
+      }
+    },
+    {
+      "code": "ACD",
+      "display_name": "Acandi",
+      "international_airport": false,
+      "regional_airport": false,
+      "location": {
+        "latitude": 8.533334,
+        "longitude": -77.333336
+      },
+      "currency_code": "COP",
+      "timezone": "America/Bogota",
+      "country": {
+        "code": "CO",
+        "display_name": "Colombia"
+      }
+    },
+    {
+      "code": "ACE",
+      "display_name": "Lanzarote",
+      "international_airport": false,
+      "regional_airport": false,
+      "location": {
+        "latitude": 28.933332,
+        "longitude": -13.6
+      },
+      "currency_code": "EUR",
+      "timezone": "Atlantic/Canary",
+      "country": {
+        "code": "ES",
+        "display_name": "Spain"
+      }
+    },
+    {
+      "code": "ACH",
+      "display_name": "Altenrhein",
+      "international_airport": false,
+      "regional_airport": false,
+      "location": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "currency_code": "CHF",
+      "timezone": "Europe/Zurich",
+      "country": {
+        "code": "CH",
+        "display_name": "Switzerland"
+      }
+    },
+    {
+      "code": "ACI",
+      "display_name": "Alderney",
+      "international_airport": false,
+      "regional_airport": false,
+      "location": {
+        "latitude": 49.716667,
+        "longitude": -2.2
+      },
+      "currency_code": "GBP",
+      "timezone": "Europe/London",
+      "country": {
+        "code": "GB",
+        "display_name": "United Kingdom"
+      }
+    },
+    {
+      "code": "ACK",
+      "display_name": "Nantucket",
+      "international_airport": false,
+      "regional_airport": false,
+      "location": {
+        "latitude": 41.25,
+        "longitude": -70.05
+      },
+      "currency_code": "USD",
+      "timezone": "America/New_York",
+      "country": {
+        "code": "US",
+        "display_name": "United States"
+      }
+    },
+    {
+      "code": "ACL",
+      "display_name": "Aguaclara",
+      "international_airport": false,
+      "regional_airport": false,
+      "location": {
+        "latitude": 4.75,
+        "longitude": -73.01667
+      },
+      "currency_code": "COP",
+      "timezone": "America/Bogota",
+      "country": {
+        "code": "CO",
+        "display_name": "Colombia"
+      }
+    }
+  ]
+}

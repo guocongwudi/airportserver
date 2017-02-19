@@ -1,0 +1,168 @@
+swagger: '2.0'
+info:
+  title: Airport API
+  description: API to list and filter airports  by country, airport code, international, domestic airports.
+  version: "1.0.0"
+host: 54.206.52.228
+schemes:
+  - http
+# will be prefixed to all paths
+basePath: /
+produces:
+  - application/json
+paths:
+  /airports:
+    get:
+      summary: list and filter airports by country, airport code, international, domestic airports.
+      description: |
+        The airports endpoint returns information about the list of airports that match the given filtering criteria
+      parameters:
+        - name: countrycode
+          in: query
+          description: contry code to filter by.
+          required: false
+          type: string
+        - name: airportcode
+          in: query
+          description: airport code to filter by.
+          required: false
+          type: string
+        - name: international
+          in: query
+          description: is international airport to fitler by.
+          required: false
+          type: boolean
+        - name: domestic
+          in: query
+          description: is domestic airport to filter by.
+          required: false
+          type: boolean
+        - name:  sortby
+          in: query
+          type: string
+          required: false
+          description: sortby airport code or country code, accepted value airport  or country. default to sort by airport code
+        - name: pagenumber
+          in: query
+          type: integer
+          required: false
+          description: page number used by pagination.
+        - name: pagesize
+          in: query
+          type: integer
+          required: false
+          description: page size used by pagination.
+
+      tags:
+        - Airports
+      responses:
+        200:
+          description: An array of airport
+          schema:
+            title: airports
+            type: array
+            items:
+              $ref: '#/definitions/Airport'
+        default:
+          description: Unexpected error
+          schema:
+
+            $ref: '#/definitions/Error'
+
+definitions:
+  FeedResponse:
+    type: object
+    properties:
+      airports:
+        type: array
+        items:
+          $ref: '#/definitions/Airport'
+
+  Airport:
+    type: object
+    title: airport
+    properties:
+      code:
+        type: string
+        maxLength: 3
+        minLength: 3
+        description: "[IATA_Code](http://www.nationsonline.org/oneworld/IATA_Codes/IATA_Code_I.htm)."
+      display_name:
+        type: string
+        description: the display name of an airport.
+      international_airport:
+        type: boolean
+        description: indicate if the airport is international or not.
+      regional_airport:
+        type: boolean
+        description: indicate if the airport is regional or not
+      location:
+        $ref: '#/definitions/Location'
+      currency_code:
+        type: string
+        maxLength: 3
+        minLength: 3
+        description: "[ISO 4217](http://en.wikipedia.org/wiki/ISO_4217) currency code."
+      timezone:
+        type: string
+        description: the time zone of the airport.
+      country:
+         $ref: '#/definitions/Country'
+    required:
+      - code
+      - display_name
+      - international_airport
+      - regional_airport
+      - location
+      - currency_code
+      - timezone
+    example:
+      code: 'BZD'
+      display_name: 'Balranald'
+      international_airport: false
+      regional_airport: false
+      location:
+        latitude: -34.616665
+        longitude: 143.61667
+      currency_code: 'AUD'
+      timezone: 'Australia/Sydney'
+      country:
+        code: 'AU'
+        display_name: 'Australia'
+  Location:
+    type: object
+    description: the location of the airport
+    properties:
+      latitude:
+        type: number
+        description: the latitude of the airport
+      longitude:
+        type: number
+        description: the longitude of the airport
+    required:
+      - latitude
+      - longitude
+  Country:
+    type: object
+    description: the country airport belongs to.
+    properties:
+      code:
+        type: string
+        description: "[ISO 3611](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) country code."
+        maxLength: 2
+        minLength: 2
+      display_name:
+        type: string
+        description: the display nmae of the country
+    required:
+      - code
+      - display_name
+
+  Error:
+    type: object
+    properties:
+      code:
+        type: integer
+        format: int32
+      message:
+        type: string
