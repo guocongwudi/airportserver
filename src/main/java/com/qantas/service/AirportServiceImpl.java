@@ -95,6 +95,10 @@ public class AirportServiceImpl implements AirportService {
             if (pageSize == null) {
                 pageSize = Integer.valueOf(defaultPageSize);
             }
+            if (pageNumber == null)
+            {
+                pageNumber = 1;
+            }
             int from = Math.max(0, (pageNumber - 1) * pageSize);
             int to = Math.min(airports.size(), (pageNumber) * pageSize);
             airports = airports.subList(from, to);
